@@ -1,4 +1,4 @@
-name: deepseek-exp
+name: one
 channels:
   - conda-forge
   - defaults
