@@ -1,0 +1,27 @@
+name: deepseek-exp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - pytorch-cuda  # only if using conda-forge and proper cuda; otherwise install torch matching your cuda
+  - matplotlib
+  - seaborn
+  - scanpy
+  - anndata
+  - statsmodels
+  - lifelines
+  - networkx
+  - h5py
+  - jupyterlab
+  - pip:
+      - transformers>=4.30.0
+      - datasets
+      - mygene
+      - faiss-cpu   # or faiss-gpu if GPU and compatibility
